@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.adsuper.io.customview">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".bingzhuangtu.PieChartViewActivity" />
+        <activity android:name=".suofang.ScaleActivity" />
+        <activity android:name=".xuanzhuan.RotateActivity" />
+        <activity android:name=".cuoqie.SkewActivity" />
+        <activity android:name=".zhendonghua.DrawBitmapActivity" />
+        <activity android:name=".huizhiwenzi.DrawTextActivity" />
+        <activity android:name=".loading.LoadingActivity" />
+        <activity android:name=".path.PathActivity" />
+        <activity android:name=".path.Path_one_Activity" />
+        <activity android:name=".path.Path_two_Activity" />
+        <activity android:name=".path.GriddingViewActivity" />
+        <activity android:name=".path.FiveStarActivity" />
+        <activity android:name=".path.beisaierquxian.HeartViewActivity" />
+        <activity android:name=".path.buerzhi.YinYangFishActivity"></activity>
+    </application>
+
+</manifest>
