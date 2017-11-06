@@ -70,4 +70,13 @@
         android:text="Path 相关"
         android:textAllCaps="false" />
 
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="第三方饼状图"
+        android:textAllCaps="false" />
+
 </LinearLayout>

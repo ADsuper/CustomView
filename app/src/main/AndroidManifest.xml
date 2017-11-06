@@ -30,7 +30,8 @@
         <activity android:name=".path.GriddingViewActivity" />
         <activity android:name=".path.FiveStarActivity" />
         <activity android:name=".path.beisaierquxian.HeartViewActivity" />
-        <activity android:name=".path.buerzhi.YinYangFishActivity"></activity>
+        <activity android:name=".path.buerzhi.YinYangFishActivity" />
+        <activity android:name=".bingzhuangtu.PieChartView2Activity"></activity>
     </application>
 
 </manifest>

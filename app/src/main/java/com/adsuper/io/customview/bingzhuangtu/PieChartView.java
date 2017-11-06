@@ -47,8 +47,9 @@ public class PieChartView extends View {
         if (mPaint == null) {
             mPaint = new Paint();
         }
-        mPaint.setStyle(Paint.Style.FILL);//模式为填充
+        mPaint.setStyle(Paint.Style.STROKE);
         mPaint.setAntiAlias(true);//抗锯齿
+        mPaint.setStrokeWidth(200);
     }
 
 
@@ -83,7 +84,8 @@ public class PieChartView extends View {
         for (int i = 0; i < mData.size(); i++) {
             PieChartBean pieChartBean = mData.get(i);
             mPaint.setColor(pieChartBean.getColor());
-            canvas.drawArc(rectF, currentStartAngle, pieChartBean.getAngle(), true, mPaint);
+            //第四个参数：如果画笔为 STROKE，参数为 false，则为空心饼状图，如果画笔为 FILL，参数为 true，则为实心饼状图
+            canvas.drawArc(rectF, currentStartAngle, pieChartBean.getAngle(), false, mPaint);
             currentStartAngle += pieChartBean.getAngle();
         }
     }

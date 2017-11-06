@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.adsuper.io.customview.bingzhuangtu.PieChartView2Activity;
 import com.adsuper.io.customview.bingzhuangtu.PieChartViewActivity;
 import com.adsuper.io.customview.cuoqie.SkewActivity;
 import com.adsuper.io.customview.huizhiwenzi.DrawTextActivity;
@@ -35,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         mContext = this;
     }
 
-    @OnClick({R.id.btn1, R.id.btn2, R.id.btn3, R.id.btn4, R.id.btn5, R.id.btn6, R.id.btn7})
+    @OnClick({R.id.btn1, R.id.btn2, R.id.btn3, R.id.btn4, R.id.btn5, R.id.btn6, R.id.btn7, R.id.btn8})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btn1:
@@ -58,6 +59,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn7:
                 startActivity(new Intent(mContext, PathActivity.class));
+                break;
+            case R.id.btn8:
+                startActivity(new Intent(mContext, PieChartView2Activity.class));
                 break;
         }
     }

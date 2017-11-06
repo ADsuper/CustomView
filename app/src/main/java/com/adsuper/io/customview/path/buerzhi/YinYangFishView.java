@@ -17,6 +17,8 @@ import android.view.animation.RotateAnimation;
 /**
  * 作者：珞神 on 11/3 0003 15:44
  * 邮箱：rsf411613593@gmail.com
+ *
+ *      阴阳鱼
  */
 
 public class YinYangFishView extends View {

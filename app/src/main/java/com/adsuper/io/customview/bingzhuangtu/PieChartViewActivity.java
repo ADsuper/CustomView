@@ -10,6 +10,9 @@ import java.util.ArrayList;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+/**
+ * 自定义饼状图
+ */
 public class PieChartViewActivity extends AppCompatActivity {
 
     @BindView(R.id.piechart_view)
